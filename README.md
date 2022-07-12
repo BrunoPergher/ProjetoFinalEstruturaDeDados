@@ -27,3 +27,6 @@ Figura 1 -Histograma da quantidade de nomes por lista
 Figura 2 - Menu de ações
 
    Através desse menu o usuário pode realizar todas as atividades comentadas anteriormente, assim tendo liberdade para usar da maneira que desejar.
+   
+   Para testar sem precisar baixar nada
+   Acesse: https://replit.com/@brunopergher/ProjetoFinale#main.c
