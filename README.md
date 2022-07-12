@@ -10,6 +10,7 @@ O problema a ser resolvido com o projeto final é utilizarmos os conhecimentos q
 	Um ponto importante sobre o uso da técnica de hashing é o hashing uniforme que se baseia em dividir as lista para garantir que as listas tenham tamanho parecidos distribuindo de maneira igualitária os elementos, na implementação de  meu sistema eu priorizei que o hash garantisse que separasse os elementos por letra assim fugindo um pouco da ideia de hash uniforme, como podemos perceber no histograma baseado nas letras e quantidade de elementos por lista a seguir:
 	
 ![image](https://user-images.githubusercontent.com/35471513/178390557-7ea8d8ef-6114-45f3-9c85-832d610ece2c.png)
+
 Figura 1 -Histograma da quantidade de nomes por lista
 
 Após tudo estar funcionando, só restava a ordenação dos nomes que para tal foi utilizado o quicksort, um algoritmo que nesse caso recursivo organiza os nomes em ordem alfabética se baseando em pivôs e ordenando simultaneamente a lista da esquerda para direita e da direita pra esquerda.
