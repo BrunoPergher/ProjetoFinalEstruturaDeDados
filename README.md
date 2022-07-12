@@ -9,13 +9,13 @@ O problema a ser resolvido com o projeto final é utilizarmos os conhecimentos q
    Ao iniciar o processo de desenvolvimento comecei por algo que já havia feito, inserindo ao projeto o funcionamento de uma lista dupla encadeada, após isso estar pronto chegamos em um novo desafio a implementação de hashing na hora de salvar nomes nas listas.
    Para implementar o hashing necessitamos nos preocupar para evitar as colisões e para esse caso a resposta já estava pronta, através da nossa lista encadeada dupla evitamos as colisões devido a algumas características da lista como uma dela é não existir um limite de tamanho, e também todas as validações que implementamos nela garantindo que não deixe elementos nulos nem ocupando uma mesma posição.
    O hash implementando se baseia no padrão ASCII que convertendo uma string para um valor inteiro nos possibilita usarmos o resto de divisão baseado em um número de chaves que irá ser criados separa os dados de maneira a agrupar palavras semelhantes juntas, no meu caso eu utilizei um valor de chaves que seria suficiente para se necessário criar uma chave por letra do alfabeto sendo elas maiuscula ou  minuscula.
-   Um ponto importante sobre o uso da técnica de hashing é o hashing uniforme que se baseia em dividir as lista para garantir que as listas tenham tamanho parecidos distribuindo de maneira igualitária os elementos, na implementação de  meu sistema eu priorizei que o hash garantisse que separasse os elementos por letra assim fugindo um pouco da ideia de hash uniforme, como podemos perceber no histograma baseado nas letras e quantidade de elementos por lista a seguir:
-	
-![image](https://user-images.githubusercontent.com/35471513/178390557-7ea8d8ef-6114-45f3-9c85-832d610ece2c.png)
+   Um ponto importante sobre o uso da técnica de hashing é o hashing uniforme que se baseia em dividir as lista para garantir que as listas tenham tamanho parecidos distribuindo de maneira igualitária os elementos, na implementação de  meu sistema eu ajustei pro hash multiplicar por um numero primo e depois dividr pela quantidade de chaves
+
+![image](https://user-images.githubusercontent.com/35471513/178481804-1e9ed53d-cdd6-4af8-85d8-69d5b5149f18.png)
 
 Figura 1 -Histograma da quantidade de nomes por lista
 
-   Após tudo estar funcionando, só restava a ordenação dos nomes que para tal foi utilizado o quicksort, um algoritmo que nesse caso recursivo organiza os nomes em ordem alfabética se baseando em pivôs e ordenando simultaneamente a lista da esquerda para direita e da direita pra esquerda.
+Através dos dados se tornou perceptivel que os dados foram distruibuidos de maneira satisfatoria e após tudo estar funcionando, só restava a ordenação dos nomes que para tal foi utilizado o quicksort, um algoritmo que nesse caso recursivo organiza os nomes em ordem alfabética se baseando em pivôs e ordenando simultaneamente a lista da esquerda para direita e da direita pra esquerda.
 
 
 
