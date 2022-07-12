@@ -15,7 +15,7 @@ O problema a ser resolvido com o projeto final é utilizarmos os conhecimentos q
 
 Figura 1 -Histograma da quantidade de nomes por lista
 
-   Através dos dados se tornou perceptivel que os dados foram distruibuidos de maneira satisfatória, tendo como média 1902 elementos por chave e um descio padrão de 55,5
+   Através dos dados se tornou perceptivel que os dados foram distruibuidos de maneira satisfatória, tendo como média 1902 elementos por chave e um descio padrão de 55,5.
 
    Após tudo estar funcionando, só restava a ordenação dos nomes que para tal foi utilizado o quicksort, um algoritmo que nesse caso recursivo organiza os nomes em ordem alfabética se baseando em pivôs e ordenando simultaneamente a lista da esquerda para direita e da direita pra esquerda.
 
