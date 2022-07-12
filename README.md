@@ -21,6 +21,7 @@ Após tudo estar funcionando, só restava a ordenação dos nomes que para tal f
 O trabalho realmente nos trouxe na prática um pouco de cada conteúdo que trabalhamos e colocando a prova nossos conhecimentos, em prol disso foi uma experiência muito completa desenvolver o projeto final trazendo mais desafios no desenvolvimento, mas finalizando com um programa funcional, implementando todas as funções das listas encadeadas duplas de imprimir os nomes, consulta-los, removê-los, e adicioná los tanto manualmente como através do arquivo de texto e também ordenando os utilizando o quick sort, onde todas essa funções podem ser controladas pelo usuário através de um menu.
 
 ![image](https://user-images.githubusercontent.com/35471513/178390494-8d91a420-f315-4686-a749-f064603cd27e.png)
+
 Figura 2 - Menu de ações
 
 Através desse menu o usuário pode realizar todas as atividades comentadas anteriormente, assim tendo liberdade para usar da maneira que desejar.
